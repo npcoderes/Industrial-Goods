@@ -1,0 +1,33 @@
+/* write your css here */
+body{
+    overflow-x: hidden;
+}
+/* Apply to the whole document or a specific container */
+::-webkit-scrollbar {
+    width: 5px; /* Width of the scrollbar */
+    height: 12px; /* Height for horizontal scrollbar */
+  }
+  
+  /* Track (background of the scrollbar) */
+  ::-webkit-scrollbar-track {
+    background: #f0f0f0; /* Light background */
+    border-radius: 6px; /* Rounded corners */
+  }
+  
+  /* Thumb (the draggable part of the scrollbar) */
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #6b8cff, #42a5f5); /* Gradient color */
+    border-radius: 20px; /* Rounded corners */
+    border: 2px solid #f0f0f0; /* Adds padding effect */
+  }
+  
+  /* Hover effect on the thumb */
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(45deg, #5a76d8, #3789d8); /* Darker gradient on hover */
+  }
+  
+  /* For Edge cases (when the container is very small) */
+  ::-webkit-scrollbar-corner {
+    background: #f0f0f0; /* Match the track color */
+  }
+
